@@ -1,12 +1,17 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap');
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./work-managment.css');
+@import url('./extension.css');
+@import url('./customise.css');
+@import url('./pricing.css');
+@import url('./your-work.css');
+@import url('./your-data.css');
+@import url('./our-sponsors.css');
+@import url('./apps.css');
+@import url('./testimonial.css');
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +27,81 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.02px;
+    color: #FFF;
+    margin: 0;
+}
+
+button {
+  font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02;
+    border-radius: 8px;
+    background: #4F9CF9;
+    color: #FFF;
+}
+
+.container {
+  padding: 0 16px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 20px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .container {
+    max-width: 1152px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    padding: 0 220px;
+  }
+}
+
+.section {
+  padding: 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 140px 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section {
+    padding: 140px 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .section {
+    padding: 140px 0;
+  }
 }
